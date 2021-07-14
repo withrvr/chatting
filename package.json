@@ -1,0 +1,26 @@
+{
+	"name": "chatting",
+	"version": "0.1.0",
+	"description": "chatting app public / personal",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/withrvr/chatting.git"
+	},
+	"keywords": [
+		"chat",
+		"chatting"
+	],
+	"author": "Raghav Rathi (@withrvr)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/withrvr/chatting/issues"
+	},
+	"dependencies": {
+		"express": "^4.17.1",
+		"socket.io": "^4.1.3"
+	}
+}
