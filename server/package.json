@@ -1,10 +1,10 @@
 {
-	"name": "chatting",
+	"name": "server",
 	"version": "0.1.0",
-	"description": "chatting app public / personal",
+	"description": "Chatting Client",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon index.js"
+		"start": "nodemon index.js"
 	},
 	"repository": {
 		"type": "git",
@@ -14,13 +14,15 @@
 		"chat",
 		"chatting"
 	],
-	"author": "Raghav Rathi (@withrvr)",
+	"author": "Raghav Rathi ( @withrvr )",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/withrvr/chatting/issues"
 	},
 	"dependencies": {
+		"cors": "^2.8.5",
 		"express": "^4.17.1",
+		"nodemon": "^2.0.12",
 		"socket.io": "^4.1.3"
 	}
 }
